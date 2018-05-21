@@ -108,6 +108,11 @@ permalink: /resume_zh-CN.html
             <div class="block-content">
               {{ project.description }}
             </div>
+            {% if project.url %}
+              <div class="block-content">
+                <a href="{{ project.url }}">{{ project.url }}</a>
+              </div>
+            {% endif %}
           </div>
           {% endfor %}
         </div>
