@@ -5,7 +5,9 @@ contact:
   - icon: fa-envelope
     text: a147714@yeah.net
   - icon: fa-phone-square
-    text: 18351966864
+    text: 18351966865
+  - icon: fa-globe
+    text: https://www.jianshu.com/u/969294600cce
   - icon: fa-github
     text: https://github.com/fzp-cxsys
 education:
@@ -17,7 +19,7 @@ skills:
   - title: "计算机语言"
     items: "Java, Ruby, HTML/CSS, JavaScript"
   - title: "开源框架"
-    items: "Spring Boot, Mybatis, Ruby on Rails, Spring Cloud"
+    items: "Mybatis, Ruby on Rails, Spring Boot, Spring Cloud"
   - title: "软件工程"
     items: "面向对象, 设计模式, 敏捷开发, 数据模型设计"
   - title: "软件质量"
@@ -28,7 +30,7 @@ experience:
   - title: "研发工程师"
     duration: "2017/07 - 至今"
     company: "亚信软件"
-    description: "独立进行账管和支付业务的新需求开发，包括和需求管理员沟通、需求澄清、方案设计、需求开发等工作；目前主要独自承担“支付网关”项目的全部新需求开发工作以及配合维护人员进行系统运行保障工作。"
+    description: "独立进行账管和支付业务的新需求开发，包括和需求管理员沟通、需求澄清、方案设计、需求开发等工作；目前主要独自承担“浙江省移动公司的一级支付系统”项目的全部新需求开发工作以及配合维护人员进行系统运行保障工作。"
   - title: "研发工程师（实习）"
     duration: "2016/07 - 2017/06"
     company: "亚信国际/亚信软件"
@@ -36,15 +38,15 @@ experience:
   - title: "项目小组负责人"
     duration: "2014/07 - 2016/06"
     company: "河海大学4114实验室"
-    description: ""
+    description: "本科在读期间，帮助学院老师领导开发了服务于学院同学的学科竞赛管理系统，带领五人的小组利用一年的课余时间完成了项目的整个开发上线过程。"
 projects:
   - name: "浙江一级支付系统"
-    description: "浙江省移动公司的一级支付系统，俗称“支付网关”。主要功能为对接移动公司各个业务平台的支付业务，提供各个银行或第三方支付机构的支付能力，并承担两方对账任务。我独自负责该项目的新需求开发工作，先后完成了新增业务平台的接入、集团统一支付系统接入等需求，以及优化业务流程，修复历史问题，减少了线上故障的发生。"
+    description: "浙江省移动公司的一级支付系统。主要功能为对接移动公司各个业务平台的支付业务，提供各个银行或第三方支付机构的支付能力，并承担两方对账任务。我独自负责该项目的新需求开发工作，先后完成了新增业务平台的接入、集团统一支付系统接入等需求，以及优化业务流程，修复历史问题，减少了线上故障的发生。项目中使用HTTP/Socket接口进行RPC调用，以完成各模块间的调用过程，使用公司内部ORM框架完成Oracle数据的访问，使用公司内部实时/定时任务框架完成对账和异步处理各平台间通信。"
     contribution: "贡献者"
-  - name: ""
-    description: "为学院4114实验室开发的学科竞赛管理系统，主要功能包括学生/教师信息管理、竞赛信息管理、竞赛报名、竞赛团队管理等。我作为 team leader ，在整个开发过程中主要承担了和老师确认需求，项目架构及数据模型设计，开发任务分配，质量保证、代码review，项目上线部署等工作。"
+  - name: "4114实验室学科竞赛管理系统"
+    description: "为学院4114实验室开发的学科竞赛管理系统，主要功能包括学生/教师信息管理、竞赛信息管理、竞赛报名、竞赛团队管理等。整个项目开发过程中，我主要扮演项目小组的负责人和领导者，主要承担了和老师确认需求，项目架构及数据模型设计，开发任务分配，质量保证、代码review，项目上线部署等工作。项目现部署于学院私有云服务器上，主要使用Ruby on Rails框架，PostgreSQL数据库，Linux系统私有云服务器。"
     contribution: "创建者和维护者"
-    url:
+    url: "http://jxycx.hhu.edu.cn/"
 languages:
   - name: "英语"
     proficiency: "CET-4"
